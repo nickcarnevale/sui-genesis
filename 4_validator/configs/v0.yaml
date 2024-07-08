@@ -1,19 +1,19 @@
 ---
 protocol-key-pair:
-  path: /home/user/kehliu-cs496/sui-genesis/4_validator/key-pairs/v0_protocol.key
+  path: /Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/key-pairs/v0_protocol.key
 worker-key-pair:
-  path: /home/user/kehliu-cs496/sui-genesis/4_validator/key-pairs/v0_worker.key
+  path: /Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/key-pairs/v0_worker.key
 network-key-pair:
-  path: /home/user/kehliu-cs496/sui-genesis/4_validator/key-pairs/v0_network.key
+  path: /Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/key-pairs/v0_network.key
 account-key-pair:
-  path: /home/user/kehliu-cs496/sui-genesis/4_validator/key-pairs/v0_account.key
-db-path: /home/user/kehliu-cs496/sui-genesis/4_validator/db/v0/authorities_db
+  path: /Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/key-pairs/v0_account.key
+db-path: /Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/db/v0/authorities_db
 network-address: /ip4/0.0.0.0/tcp/8090/http
 metrics-address: 0.0.0.0:9194
 admin-interface-port: 1339
 consensus-config:
   address: /ip4/127.0.0.1/tcp/8083/http
-  db-path: /home/user/kehliu-cs496/sui-genesis/4_validator/db/v0/consensus_db
+  db-path: //Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/db/v0/consensus_db
   internal-worker-address: null
   narwhal-config:
     header_num_of_batches_threshold: 32
@@ -52,7 +52,7 @@ p2p-config:
     - peer-id: 820e65c926b01b59166359140425ba85945ed646937fe62d6785a4c9cbb40e8c
       address: /ip4/127.0.0.1/udp/8894
 genesis:
-  genesis-file-location: /home/user/kehliu-cs496/sui-genesis/4_validator/genesis.blob
+  genesis-file-location: /Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/genesis.blob
 authority-store-pruning-config:
   num-latest-epoch-dbs-to-retain: 3
   epoch-db-pruning-period-secs: 3600

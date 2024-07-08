@@ -1,6 +1,6 @@
 ---
 # Update this value to the location you want Sui to store its database
-db-path: " /home/user/kehliu-cs496/sui-genesis/4_validator/db/fullnode_db"
+db-path: "/Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/db/fullnode_db"
 
 network-address: "/ip4/127.0.0.1/tcp/8080/http"
 metrics-address: "127.0.0.1:9186"
@@ -10,7 +10,7 @@ enable-event-processing: true
 
 genesis:
   # Update this to the location of where the genesis file is stored
-  genesis-file-location: "/home/user/kehliu-cs496/sui-genesis/4_validator/genesis.blob"
+  genesis-file-location: "/Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/genesis.blob"
 
 authority-store-pruning-config:
   num-latest-epoch-dbs-to-retain: 3

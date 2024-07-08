@@ -1,14 +1,14 @@
 ---
 protocol-key-pair:
-  path: /home/user/kehliu-cs496/sui-genesis/4_validator/key-pairs/n1_protocol.key
+  path: /Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/key-pairs/n1_protocol.key
 worker-key-pair:
-  path: /home/user/kehliu-cs496/sui-genesis/4_validator/key-pairs/n1_worker.key
+  path: /Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/key-pairs/n1_worker.key
 network-key-pair:
-  path: /home/user/kehliu-cs496/sui-genesis/4_validator/key-pairs/n1_network.key
+  path: /Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/key-pairs/n1_network.key
 account-key-pair:
-  path: /home/user/kehliu-cs496/sui-genesis/4_validator/key-pairs/n1_account.key
+  path: /Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/key-pairs/n1_account.key
 # Update this value to the location you want Sui to store its database
-db-path: " /home/user/kehliu-cs496/sui-genesis/4_validator/db/n1/"
+db-path: "/Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/db/n1/"
 
 network-address: "/ip4/127.0.0.1/tcp/8880/http"
 metrics-address: "127.0.0.1:9187"
@@ -19,7 +19,7 @@ admin-interface-port: 1351
 
 genesis:
   # Update this to the location of where the genesis file is stored
-  genesis-file-location: "/home/user/kehliu-cs496/sui-genesis/4_validator/genesis.blob"
+  genesis-file-location: "/Users/nickcarnevale/desktop/lehigh/benchmarking/sui-genesis/4_validator/genesis.blob"
 
 authority-store-pruning-config:
   num-latest-epoch-dbs-to-retain: 3
